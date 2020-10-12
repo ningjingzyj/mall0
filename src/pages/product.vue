@@ -1,20 +1,10 @@
 <template>
-    <div>{{msg}}</div>
-    <!--<someComponent></someComponent>-->
+    <div>product</div>
 </template>
 
 <script>
-    //import someComponent from './someComponent'
     export default {
-        name: "",
-        data() {
-            return {
-                msg: "Hello Vue.js"
-            }
-        },
-        component: {
-            //someComponent
-        }
+        name: "product"
     }
 </script>
 

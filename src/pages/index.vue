@@ -1,19 +1,12 @@
 <template>
-    <div>{{msg}}</div>
-    <!--<someComponent></someComponent>-->
+    <div>index</div>
 </template>
 
 <script>
-    //import someComponent from './someComponent'
     export default {
-        name: "",
-        data() {
-            return {
-                msg: "Hello Vue.js"
-            }
-        },
-        component: {
-            //someComponent
+        name: "index",
+        components: {
+
         }
     }
 </script>

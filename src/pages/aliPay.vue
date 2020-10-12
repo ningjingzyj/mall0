@@ -1,12 +1,10 @@
 <template>
-    <div>{{msg}}</div>
-    <!--<someComponent></someComponent>-->
+    <div>alipay</div>
 </template>
 
 <script>
-    //import someComponent from './someComponent'
     export default {
-        name: "",
+        name: "alipay",
         data() {
             return {
                 msg: "Hello Vue.js"

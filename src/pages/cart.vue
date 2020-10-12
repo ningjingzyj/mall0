@@ -1,19 +1,20 @@
 <template>
-    <div>{{msg}}</div>
-    <!--<someComponent></someComponent>-->
+    <div>
+
+        <order-header></order-header>
+        cart
+        <nav-footer></nav-footer>
+    </div>
 </template>
 
 <script>
-    //import someComponent from './someComponent'
+    import OrderHeader from "../components/OrderHeader";
+    import NavFooter from "../components/NavFooter";
     export default {
-        name: "",
-        data() {
-            return {
-                msg: "Hello Vue.js"
-            }
-        },
-        component: {
-            //someComponent
+        name: "cart",
+        components: {
+            NavFooter,
+            OrderHeader,
         }
     }
 </script>
