@@ -5,6 +5,7 @@ import Index from './pages/index';
 import Product from './pages/product';
 import Detail from './pages/detail';
 import Cart from './pages/cart'
+import Login from './pages/login'
 import Order from './pages/order'
 import OrderList from './pages/orderList'
 import OrderConfirm from './pages/orderConfirm'
@@ -30,11 +31,15 @@ export default new Router({
                     name:'product',
                     component:Product,
                 }, {
-                    path:'/detail',
+                    path:'/detail/:id',
                     name:'detail',
                     component:Detail
                 }
             ]
+        }, {
+            path:'/login',
+            name:'login',
+            component:Login
         }, {
             path:'/cart',
             name:'cart',
